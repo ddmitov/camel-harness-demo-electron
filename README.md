@@ -11,10 +11,10 @@ camel-harness-demo-electron is an [Electron-based](http://electron.atom.io/) dem
 
 ## Quick Start
 Create an empty directory and type:
-``npm init --yes``
+``npm init --yes``  
 ``npm install camel-harness-demo-electron``  
-``cd node_modules/camel-harness``
-``npm start``  
+``cd node_modules/camel-harness``  
+``npm start``
 
 ## Node.js Dependencies
 * ``camel-harness``
