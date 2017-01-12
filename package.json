@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ddmitov/camel-harness.git"
+    "url": "git+https://github.com/ddmitov/camel-harness-demo-electron.git"
   },
   "keywords": [
     "perl",
@@ -19,9 +19,9 @@
   "author": "Dimitar D. Mitov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ddmitov/camel-harness/issues"
+    "url": "https://github.com/ddmitov/camel-harness-demo-electron/issues"
   },
-  "homepage": "https://github.com/ddmitov/camel-harness#readme",
+  "homepage": "https://github.com/ddmitov/camel-harness-demo-electron#readme",
   "dependencies": {
     "camel-harness": "^0.7.0",
     "electron-prebuilt": "^0.37.0"
