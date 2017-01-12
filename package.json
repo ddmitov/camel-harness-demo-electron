@@ -1,0 +1,29 @@
+{
+  "name": "camel-harness-demo-electron",
+  "version": "0.7.0",
+  "description": "camel-harness electron demo",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddmitov/camel-harness.git"
+  },
+  "keywords": [
+    "perl",
+    "asynchronous",
+    "child_process",
+    "electron"
+  ],
+  "author": "Dimitar D. Mitov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddmitov/camel-harness/issues"
+  },
+  "homepage": "https://github.com/ddmitov/camel-harness#readme",
+  "dependencies": {
+    "camel-harness": "^0.7.0",
+    "electron-prebuilt": "^0.37.0"
+  }
+}
