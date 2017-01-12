@@ -10,7 +10,7 @@ camel-harness-demo-electron
 camel-harness-demo-electron is an [Electron-based](http://electron.atom.io/) demo application for the [camel-harness](https://www.npmjs.com/package/camel-harness) NPM package.
 
 ## Quick Start
-Create an empty directory and type:
+Create an empty directory and type:  
 ``npm init --yes``  
 ``npm install camel-harness-demo-electron``  
 ``cd node_modules/camel-harness``  
