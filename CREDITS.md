@@ -15,6 +15,3 @@ http://stackoverflow.com/questions/1070760/javascript-function-in-href-vs-onclic
 http://stackoverflow.com/questions/3133243/how-do-i-get-the-path-to-the-current-script-with-node-js  
 
 http://www.tutorialspoint.com/nodejs/nodejs_path_module.htm  
-
-https://www.hacksparrow.com/how-to-write-node-js-modules.html  
-http://latower.com/blog/2008/11/12/splitting-a-long-javascript-string-across-multiple-lines/  

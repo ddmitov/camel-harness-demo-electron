@@ -7,7 +7,7 @@ camel-harness-demo-electron
 [![Coverity Scan Build Status](https://scan.coverity.com/projects/11436/badge.svg)](https://scan.coverity.com/projects/ddmitov-camel-harness-demo-electron)
 [![Known Vulnerabilities](https://snyk.io/test/github/ddmitov/camel-harness-demo-electron/badge.svg)](https://snyk.io/test/github/ddmitov/camel-harness-demo-electron)  
 
-camel-harness-demo-electron is an [Electron-based](http://electron.atom.io/) demo application for the [camel-harness](https://www.npmjs.com/package/camel-harness) NPM package.
+camel-harness-demo-electron is a demo application for the [camel-harness](https://www.npmjs.com/package/camel-harness) NPM package based on [Electron](http://electron.atom.io/).
 
 ## Quick Start
 Create an empty directory and type:  

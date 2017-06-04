@@ -1,7 +1,7 @@
 {
   "name": "camel-harness-demo-electron",
   "version": "0.7.1",
-  "description": "camel-harness electron demo",
+  "description": "Electron demo application for the camel-harness package",
   "main": "main.js",
   "scripts": {
     "start": "electron main.js"
