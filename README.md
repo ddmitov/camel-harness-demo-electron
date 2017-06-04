@@ -20,8 +20,9 @@ Create an empty directory and type:
 * ``camel-harness``
 * ``electron-prebuilt``
 
-## External Dependency
-Perl distribution with the ``AnyEvent`` Perl module installed and a ``perl`` binary available on PATH.
+## Perl Dependencies
+* ``perl`` binary available on PATH
+* ``AnyEvent`` CPAN module installed
 
 ## [Thanks and Credits](./CREDITS.md)
 
