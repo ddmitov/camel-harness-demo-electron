@@ -4,7 +4,6 @@ camel-harness-demo-electron
 [![GitHub Version](https://img.shields.io/github/release/ddmitov/camel-harness-demo-electron.svg)](https://github.com/ddmitov/camel-harness-demo-electron/releases)
 [![GitHub License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE.md)
 [![NPM Version](https://img.shields.io/npm/v/camel-harness-demo-electron.svg)](https://www.npmjs.com/package/camel-harness-demo-electron)
-[![Coverity Scan Build Status](https://scan.coverity.com/projects/11436/badge.svg)](https://scan.coverity.com/projects/ddmitov-camel-harness-demo-electron)
 [![Known Vulnerabilities](https://snyk.io/test/github/ddmitov/camel-harness-demo-electron/badge.svg)](https://snyk.io/test/github/ddmitov/camel-harness-demo-electron)  
 
 camel-harness-demo-electron is a demo application for the [camel-harness](https://www.npmjs.com/package/camel-harness) NPM package based on [Electron](http://electron.atom.io/).
