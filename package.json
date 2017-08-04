@@ -1,6 +1,6 @@
 {
   "name": "camel-harness-demo-electron",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "description": "Electron demo application for the camel-harness package",
   "main": "main.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/ddmitov/camel-harness-demo-electron#readme",
   "dependencies": {
-    "camel-harness": "^0.7.0",
-    "electron-prebuilt": "^0.37.0"
+    "camel-harness": "^0.8.0",
+    "electron" : "^1.7.3"
   }
 }

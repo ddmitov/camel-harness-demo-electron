@@ -3,7 +3,7 @@
 // camel-harness demo for Electron
 
 // Load the camel-harness package:
-const camelHarness = require('../camel-harness');
+const camelHarness = require('camel-harness');
 
 // Determine the operating system and initialize 'path' object:
 var os = require('os');
@@ -20,10 +20,9 @@ if (platform !== 'win32') {
 var versionScriptFullPath =
     path.join(__dirname, 'perl', 'version.pl');
 
-var versionScriptObject = new Object();
+var versionScriptObject = {};
 versionScriptObject.interpreter = 'perl';
 versionScriptObject.scriptFullPath = versionScriptFullPath;
-
 versionScriptObject.stdoutFunction = function(stdout) {
   document.getElementById('version-script').innerHTML = stdout;
 };
@@ -33,25 +32,23 @@ var counterScriptFullPath =
     path.join(__dirname, 'perl', 'counter.pl');
 
 // counter.pl - first instance:
-var counterOneObject = new Object();
+var counterOneObject = {};
 counterOneObject.interpreter = 'perl';
 counterOneObject.scriptFullPath = counterScriptFullPath;
-
 counterOneObject.stdoutFunction = function(stdout) {
   document.getElementById('long-running-script-one').innerHTML = stdout;
 };
 
 // counter.pl - second instance:
-var counterTwoObject = new Object();
+var counterTwoObject = {};
 counterTwoObject.interpreter = 'perl';
 counterTwoObject.scriptFullPath = counterScriptFullPath;
-
 counterTwoObject.stdoutFunction = function(stdout) {
   document.getElementById('long-running-script-two').innerHTML = stdout;
 };
 
 // interactive script:
-var interactiveScriptObject = new Object();
+var interactiveScriptObject = {};
 
 function startInteractiveScript() {
   var interactiveScriptFullPath =
@@ -81,9 +78,7 @@ function closeInteractiveScript() {
   interactiveScriptObject.scriptHandler.stdin.write('_close_\n');
 }
 
-if (navigator.userAgent.match(/Electron/)) {
-  // Wait for close event message from the main process and react accordingly:
-  require('electron').ipcRenderer.on('closeInteractiveScript', function() {
-    closeInteractiveScript();
-  });
-}
+// Wait for close event message from the main process and react accordingly:
+require('electron').ipcRenderer.on('closeInteractiveScript', function() {
+  closeInteractiveScript();
+});

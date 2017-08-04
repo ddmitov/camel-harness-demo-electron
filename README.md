@@ -4,24 +4,28 @@ camel-harness-demo-electron
 [![GitHub Version](https://img.shields.io/github/release/ddmitov/camel-harness-demo-electron.svg)](https://github.com/ddmitov/camel-harness-demo-electron/releases)
 [![GitHub License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE.md)
 [![NPM Version](https://img.shields.io/npm/v/camel-harness-demo-electron.svg)](https://www.npmjs.com/package/camel-harness-demo-electron)
-[![Known Vulnerabilities](https://snyk.io/test/github/ddmitov/camel-harness-demo-electron/badge.svg)](https://snyk.io/test/github/ddmitov/camel-harness-demo-electron)  
+[![bitHound Status](https://www.bithound.io/github/ddmitov/camel-harness-demo-electron/badges/code.svg)](https://www.bithound.io/github/ddmitov/camel-harness-demo-electron)
+[![Snyk Status](https://snyk.io/test/github/ddmitov/camel-harness-demo-electron/badge.svg)](https://snyk.io/test/github/ddmitov/camel-harness-demo-electron)  
 
-camel-harness-demo-electron is a demo application for the [camel-harness](https://www.npmjs.com/package/camel-harness) NPM package based on [Electron](http://electron.atom.io/).
+Demo application for the [camel-harness](https://www.npmjs.com/package/camel-harness) npm package based on [Electron](http://electron.atom.io/)
 
 ## Quick Start
-Create an empty directory and type:  
-``npm init --yes``  
-``npm install camel-harness-demo-electron``  
-``cd node_modules/camel-harness-demo-electron``  
+``git clone git://github.com/ddmitov/camel-harness-demo-electron.git``  
+``cd camel-harness-demo-electron``  
+``npm install``  
 ``npm start``
 
-## Node.js Dependencies
-* ``camel-harness``
-* ``electron-prebuilt``
+## Core Dependencies
+* ``os``
+* ``path``
 
-## Perl Dependencies
+## NPM Dependencies
+* ``camel-harness``
+* ``electron``
+
+## External Dependencies
 * ``perl`` binary available on PATH
-* ``AnyEvent`` CPAN module installed
+* ``AnyEvent`` CPAN module
 
 ## [Thanks and Credits](./CREDITS.md)
 
