@@ -6,4 +6,8 @@ ignore:
     - '*':
         reason: Not exploitable using camel-harness
         expires: 2017-12-31T00:00:00.000Z
-patch: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - electron > extract-zip > debug:
+        patched: '2017-09-30T00:26:03.746Z'
