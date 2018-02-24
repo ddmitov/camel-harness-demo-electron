@@ -42,7 +42,7 @@ function createWindow () {
 
   // Emitted when window closing is attempted:
   mainWindow.on('close', function(event) {
-    if (clearToClose == false) {
+    if (clearToClose === false) {
       event.preventDefault();
       mainWindow.webContents.send('closeInteractiveScript');
     }
