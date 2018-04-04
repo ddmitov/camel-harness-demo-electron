@@ -32,7 +32,7 @@
     <p>
       <div id="version-script">
         <a href="#"
-          onclick="camelHarness.startScript(versionScriptObject); return false;">
+          onclick="CAMEL_HARNESS.startScript(versionScriptObject); return false;">
           Perl Version
         </a>
       </div>
@@ -41,7 +41,7 @@
     <p>
       <div id="long-running-script-one">
         <a href="#"
-          onclick="camelHarness.startScript(counterOneObject); return false;">
+          onclick="CAMEL_HARNESS.startScript(counterOneObject); return false;">
           Long Running Perl Script - First Instance
         </a>
       </div>
@@ -50,7 +50,7 @@
     <p>
       <div id="long-running-script-two">
         <a href="#"
-          onclick="camelHarness.startScript(counterTwoObject); return false;">
+          onclick="CAMEL_HARNESS.startScript(counterTwoObject); return false;">
           Long Running Perl Script - Second Instance
         </a>
       </div>
@@ -71,8 +71,16 @@
     </p>
 
     <script type="text/javascript">
-      document.addEventListener("DOMContentLoaded", function(event) {
+      document.addEventListener('DOMContentLoaded', function(event) {
         startInteractiveScript();
+
+        document.getElementById('interactive-script-input')
+          .addEventListener('keydown', function(event) {
+          if (event.which == 13) {
+            event.preventDefault();
+            sendDataToInteractiveScript();
+          }
+        });
       });
     </script>
   </body>

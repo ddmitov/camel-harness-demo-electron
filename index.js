@@ -3,13 +3,13 @@
 // camel-harness demo for Electron
 
 // Load the camel-harness package:
-const camelHarness = require('camel-harness');
+const CAMEL_HARNESS = require('camel-harness');
 
 // Determine the operating system and initialize 'path' object:
-var os = require('os');
-var platform = os.platform();
+let os = require('os');
+let platform = os.platform();
 
-var path;
+let path;
 if (platform !== 'win32') {
   path = require('path').posix;
 } else {
@@ -17,10 +17,10 @@ if (platform !== 'win32') {
 }
 
 // version.pl:
-var versionScriptFullPath =
+let versionScriptFullPath =
     path.join(__dirname, 'perl', 'version.pl');
 
-var versionScriptObject = {};
+let versionScriptObject = {};
 versionScriptObject.interpreter = 'perl';
 versionScriptObject.scriptFullPath = versionScriptFullPath;
 versionScriptObject.stdoutFunction = function(stdout) {
@@ -28,11 +28,11 @@ versionScriptObject.stdoutFunction = function(stdout) {
 };
 
 // counter.pl full path:
-var counterScriptFullPath =
+let counterScriptFullPath =
     path.join(__dirname, 'perl', 'counter.pl');
 
 // counter.pl - first instance:
-var counterOneObject = {};
+let counterOneObject = {};
 counterOneObject.interpreter = 'perl';
 counterOneObject.scriptFullPath = counterScriptFullPath;
 counterOneObject.stdoutFunction = function(stdout) {
@@ -40,7 +40,7 @@ counterOneObject.stdoutFunction = function(stdout) {
 };
 
 // counter.pl - second instance:
-var counterTwoObject = {};
+let counterTwoObject = {};
 counterTwoObject.interpreter = 'perl';
 counterTwoObject.scriptFullPath = counterScriptFullPath;
 counterTwoObject.stdoutFunction = function(stdout) {
@@ -48,10 +48,10 @@ counterTwoObject.stdoutFunction = function(stdout) {
 };
 
 // interactive script:
-var interactiveScriptObject = {};
+let interactiveScriptObject = {};
 
 function startInteractiveScript() {
-  var interactiveScriptFullPath =
+  let interactiveScriptFullPath =
       path.join(__dirname, 'perl', 'interactive.pl');
 
   interactiveScriptObject.interpreter = 'perl';
@@ -66,12 +66,12 @@ function startInteractiveScript() {
     }
   };
 
-  camelHarness.startScript(interactiveScriptObject);
+  CAMEL_HARNESS.startScript(interactiveScriptObject);
 }
 
 function sendDataToInteractiveScript() {
-  var data = document.getElementById('interactive-script-input').value;
-  interactiveScriptObject.scriptHandler.stdin.write(data + '\n');
+  let data = document.getElementById('interactive-script-input').value;
+  interactiveScriptObject.scriptHandler.stdin.write(`${data}\n`);
 }
 
 function closeInteractiveScript() {

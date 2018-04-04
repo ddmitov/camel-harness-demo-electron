@@ -13,5 +13,6 @@ http://stackoverflow.com/questions/31529772/setting-app-icon-for-electron-atom-s
 http://stackoverflow.com/questions/14989081/node-js-to-get-determine-os-version  
 http://stackoverflow.com/questions/1070760/javascript-function-in-href-vs-onclick  
 http://stackoverflow.com/questions/3133243/how-do-i-get-the-path-to-the-current-script-with-node-js  
+https://stackoverflow.com/questions/33749220/run-javascript-function-when-enter-is-pressed-javascript-only-no-jquery  
 
 http://www.tutorialspoint.com/nodejs/nodejs_path_module.htm  
