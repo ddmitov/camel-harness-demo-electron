@@ -2,9 +2,9 @@ camel-harness-demo-electron
 --------------------------------------------------------------------------------
 
 [![GitHub Version](https://img.shields.io/github/release/ddmitov/camel-harness-demo-electron.svg)](https://github.com/ddmitov/camel-harness-demo-electron/releases)
-[![GitHub License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE.md)
 [![NPM Version](https://img.shields.io/npm/v/camel-harness-demo-electron.svg)](https://www.npmjs.com/package/camel-harness-demo-electron)
-[![bitHound Status](https://www.bithound.io/github/ddmitov/camel-harness-demo-electron/badges/code.svg)](https://www.bithound.io/github/ddmitov/camel-harness-demo-electron)
+[![GitHub License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE.md)  
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/737ba6974c7741dc90904b534ba0f2b2)](https://www.codacy.com/app/ddmitov/camel-harness-demo-electron?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ddmitov/camel-harness-demo-electron&amp;utm_campaign=Badge_Grade)
 [![Snyk Status](https://snyk.io/test/github/ddmitov/camel-harness-demo-electron/badge.svg)](https://snyk.io/test/github/ddmitov/camel-harness-demo-electron)  
 
 Demo application for the [camel-harness](https://www.npmjs.com/package/camel-harness) npm package based on [Electron](http://electron.atom.io/)

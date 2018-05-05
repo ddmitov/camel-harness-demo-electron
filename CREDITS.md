@@ -16,3 +16,4 @@ http://stackoverflow.com/questions/3133243/how-do-i-get-the-path-to-the-current-
 https://stackoverflow.com/questions/33749220/run-javascript-function-when-enter-is-pressed-javascript-only-no-jquery  
 
 http://www.tutorialspoint.com/nodejs/nodejs_path_module.htm  
+https://devtidbits.com/2017/12/06/quick-fix-the-unsafe_var_assignment-warning-in-javascript/  
