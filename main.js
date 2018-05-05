@@ -6,7 +6,7 @@ const electron = require("electron");
 const application = electron.app;
 
 // Module to create native browser window.
-const browserWindow = electron.BrowserWindow;
+const ElectronWindow = electron.BrowserWindow;
 
 // Module to communicate with the render process:
 const ipc = require("electron").ipcMain;
@@ -20,7 +20,7 @@ function createWindow () {
   let iconFullPath = __dirname + "/camel.png";
 
   // Create the browser window:
-  mainWindow = new browserWindow({icon: iconFullPath});
+  mainWindow = new ElectronWindow({icon: iconFullPath});
 
   // Maximize the browser window:
   mainWindow.maximize();
@@ -34,7 +34,7 @@ function createWindow () {
   // Close the window when "close" message arrives:
   let clearToClose = false;
   ipc.on("asynchronous-message", function(event, arg) {
-    if (arg == "close") {
+    if (arg === "close") {
       clearToClose = true;
       mainWindow.close();
     }
