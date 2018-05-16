@@ -30,4 +30,5 @@ Demo application for the [camel-harness](https://www.npmjs.com/package/camel-har
 ## [Thanks and Credits](./CREDITS.md)
 
 ## [License](./LICENSE.md)
-MIT © 2017 - 2018 Dimitar D. Mitov  
+MIT 2017 - 2018  
+Dimitar D. Mitov  

@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/ddmitov/camel-harness-demo-electron#readme",
   "dependencies": {
-    "camel-harness": "^0.8.4",
+    "camel-harness": "^0.9.2",
     "electron": "^1.8.2",
     "snyk": "^1.41.1"
   },
