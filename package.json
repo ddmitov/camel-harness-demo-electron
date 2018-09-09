@@ -1,12 +1,10 @@
 {
   "name": "camel-harness-demo-electron",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Electron demo application for the camel-harness package",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "start": "electron main.js"
   },
   "repository": {
     "type": "git",
@@ -26,8 +24,6 @@
   "homepage": "https://github.com/ddmitov/camel-harness-demo-electron#readme",
   "dependencies": {
     "camel-harness": "^1.0.0",
-    "electron": "^2.0.8",
-    "snyk": "^1.41.1"
-  },
-  "snyk": true
+    "electron": "^2.0.8"
+  }
 }
