@@ -1,7 +1,5 @@
 # camel-harness-demo-electron
 
-[![Snyk Status](https://snyk.io/test/github/ddmitov/camel-harness-demo-electron/badge.svg)](https://snyk.io/test/github/ddmitov/camel-harness-demo-electron)  
-
 Demo application for the [camel-harness](https://www.npmjs.com/package/camel-harness) npm package based on [Electron](http://electron.atom.io/)
 
 ## Quick Start
