@@ -25,6 +25,5 @@
   "dependencies": {
     "camel-harness": "^1.0.0",
     "electron": "^19.0.15"
-  },
-  "snyk": true
+  }
 }
